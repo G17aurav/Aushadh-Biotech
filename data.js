@@ -1,0 +1,198 @@
+// data.js
+const products = [
+    {
+      image: "Images/Products/product1.png",
+      alt: "Product 1",
+      name: "AUS-Ten Q",
+      description: "Support healthy vascular function and promotes the integrity of lipids to maintain heart health",
+    },
+    {
+      image: "Images/Products/product2.png",
+      alt: "Product 2",
+      name: "Boomlet",
+      description: "Elevated the total white cell counts and platelet counts",
+
+    },
+    {
+      image: "Images/Products/product3.png",
+      alt: "Product 3",
+      name: "AUS Recharge Syrup",
+      description: "Helps to improve appetite and promote health growth",
+    },
+    {
+        image: "Images/Products/product4.png",
+        alt: "Product 4",
+        name: "Ab-Flam Gel",
+        description: "Provide effective relief from muscular pain, neck and backache",
+      },
+      {
+        image: "Images/Products/product5.png",
+        alt: "Product 5",
+        name: "Insufit Syrup",
+        description: "A combination of 13 effective herbs to toe up function on vital organs",
+      },
+      {
+        image: "Images/Products/product6.png",
+        alt: "Product 6",
+        name: "Dhadkan Sugar Free Syrup",
+        description: "Useful in cardiac diseases, Blood pressure and diabetic patient",
+       
+      },
+      {
+        image: "Images/Products/Product2.jpg",
+        alt: "Product 7",
+        name: "Olirich Oil",
+        description: "Natural ingredients to protect skin dryness and improves blood circulation",
+      },
+      {
+        image: "Images/Products/Product1.jpg",
+        alt: "Product 8",
+        name: "Olirich Soap",
+        description: "Enriched with Vit A,D & E to provide wrinkle free skin",
+      },
+      {
+        image: "Images/Products/product9.png",
+        alt: "Product 9",
+        name: "Aptez Syrup",
+        description: "Aptez Syrup is actively used to address liver disorders and also in weight loss or malnutrition",
+      },
+      {
+        image: "Images/Products/product10.png",
+        alt: "Product 10",
+        name: "Overlay kt-5",
+        description: "Used to cure various skin infections like inflammation, redness, swelling and itching",
+      },
+      {
+        image: "Images/Products/product11.png",
+        alt: "Product 11",
+        name: "Overlay-KT",
+        description: "Ketoconazole that prevents the fungal infection, releives flaking, scaling and itching",
+      },
+      {
+        image: "Images/Products/product12.png",
+        alt: "Product 12",
+        name: "Overlay Capsule",
+        description: "Used to reduce abscess and skin rashes, delays aging and enhances strength",
+      },
+      {
+        image: "Images/Products/product13.png",
+        alt: "Product 13",
+        name: "Overlay Lotion",
+        description: "Eliminates all types of toxic elements and glorify the skin tone and Complexation",
+      },
+      {
+        image: "Images/Products/product14.png",
+        alt: "Product 14",
+        name: "Overlay Syrup",
+        description: "Help to get rid of blackheads & also prevent them from coming back",
+      },
+      {
+        image: "Images/Products/product15.png",
+        alt: "Product 15",
+        name: "Kindle Cream",
+        description: "Helps to lighten the dark patches of skin, glowing the skin, to remove pimples and acnes",
+      },
+      {
+        image: "Images/Products/product16.png",
+        alt: "Product 16",
+        name: "She N Teen",
+        description: "Balance the downward flow to mensuration and elimination",
+      },
+      {
+        image: "Images/Products/product17.png",
+        alt: "Product 17",
+        name: "AB-Liv",
+        description: "Aptez Syrup is actively used ti address liver disorders and also in weight loss or malnutrition",
+      },
+      {
+        image: "Images/Products/product19.png",
+        alt: "Product 19",
+        name: "Lycopen Plus ",
+        description: "Complete tonic syrup with multivitamins and multiminerals",
+      },
+      {
+        image: "Images/Products/product20.png",
+        alt: "Product 20",
+        name: "Lycopen Plus Capsules",
+        description: "A complete tonic with goodness of iron and multivitamins",
+      },
+      {
+        image: "Images/Products/product21.png",
+        alt: "Product 21",
+        name: "Tulsi Rich Cough Syrup",
+        description: "It is a natural healer for cold and cough, amde for the power of tulsi",
+      },
+      {
+        image: "Images/Products/product22.png",
+        alt: "Product 22",
+        name: "Honey Rich Cough Syrup",
+        description: "Cough syrup with the goodness of Honey and other powerful herbs",
+      },
+      {
+        image: "Images/Products/product23.png",
+        alt: "Product 23",
+        name: "All Age Malt",
+        description: "Improves Energy improve body and muscle power improves digestion",
+      },
+      {
+        image: "Images/Products/product24.png",
+        alt: "Product 24",
+        name: "Shilajit Malt",
+        description: "Helps to improve sporting performance, sleep patterns in a natural way",
+      },
+      {
+        image: "Images/Products/product25.png",
+        alt: "Product 25",
+        name: "Perfect Soap",
+        description: "Perfect soap can be used for killing parasites in the skin",
+      },
+      {
+        image: "Images/Products/product26.png",
+        alt: "Product 26",
+        name: "Palm Oil",
+        description: "Boosts your body's energy level",
+      },
+      {
+        image: "Images/Products/product27.png",
+        alt: "Product 27",
+        name: "Aus pro",
+        description: "A natural source of protien and anti-oxidants, improves energy and muscles",
+      },
+      {
+        image: "Images/Products/product28.png",
+        alt: "Product 28",
+        name: "Ashoka Cordial Syrup",
+        description: "Complete tonic syrup for women",
+      },
+      {
+        image: "Images/Products/product29.png",
+        alt: "Product 29",
+        name: "Iron Tonic Syrup",
+        description: "Give your body essential multivitamin with the richness of iron",
+      },
+      {
+        image: "Images/Products/product30.png",
+        alt: "Product 30",
+        name: "Multivitamin Capsules",
+        description: "Helps to maintain healthy energy levels throughout the day",
+      },
+      {
+        image: "Images/Products/product31.png",
+        alt: "Product 31",
+        name: "B-Complex Syrup",
+        description: "Dietary Food supplements for vitamins and other minerals",
+      },
+      {
+        image: "Images/Products/product32.png",
+        alt: "Product 32",
+        name: "Multivitamin Syrup",
+        description: "Antioxidant syrup with all the essentials vitamins which helps to make you fresh and energetic",
+      },
+      {
+        image: "Images/Products/product33.png",
+        alt: "Product 33",
+        name: "Kool",
+        description: "Instant energy recharge drink",
+      },
+  ];
+  
